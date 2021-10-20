@@ -1,0 +1,17 @@
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+@media screen and (max-width: 692px) {
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.service-title {
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%), 0 10px 30px rgb(0 0 0 / 5%);
+  height: 300px;
+  padding: 50px;
+}

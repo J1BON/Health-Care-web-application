@@ -1,0 +1,49 @@
+[
+  {
+    "id": "1",
+    "name": "Medical care and care",
+    "price": "50$/Night",
+    "description": "Responsible and diligent approach to each patient. The optimum ratio of price and quality. High quality health.At you service Always",
+    "img": "https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/171025-better-doctor.jpg"
+  },
+
+  {
+    "id": "2",
+    "name": "Care and help at home",
+    "price": "100$/Night",
+    "description": "Don't worry if you can't come to our hospital. We will send our doctors in your footsteps. Call us in any emergency situation.",
+    "img": "https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/153810275-2.jpg"
+  },
+
+  {
+    "id": "3",
+    "name": "Specialized care",
+    "price": "150$/Night",
+    "description": "High quality health care and service. Advanced medical technologies and innovative diagnosis and treatment methods",
+    "img": "https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/iStock_21731652_LARGE-1-768x512.jpg"
+  },
+
+  {
+    "id": "4",
+    "name": "Doctor’s visit to the house",
+    "price": "100$/Night",
+    "description": "Did you need a weekly or daily checkup? Call us any time on our helpline. Our 24/7 doctor service is waiting for your call.",
+    "img": "https://nordis.true-emotions.studio/health/wp-content/uploads/sites/14/2018/03/9adf1401a21b-768x512.jpg"
+  },
+
+  {
+    "id": "5",
+    "name": "Personal Nurse",
+    "price": "40$/Night",
+    "description": "We have our best nursing service. They will take care of you 24/7. If you need any emergency medical help they will take care",
+    "img": "https://www.agedcareguide.com.au/assets/news/articles_resized/large_7Aug17_carers-replacing-nurses-Bluecare.jpg"
+  },
+
+  {
+    "id": "6",
+    "name": "Private Ambulance",
+    "price": "20$ Only",
+    "description": "We are always ready to face any kind of emergency health service. That's why we have a large amount of our ambulance collection",
+    "img": "https://cdn.pixabay.com/photo/2017/08/14/12/39/health-2640352_960_720.jpg"
+  }
+]

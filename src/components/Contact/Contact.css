@@ -1,0 +1,23 @@
+.logo p i {
+  font-size: 28px;
+  margin-right: 5px;
+}
+
+.text p {
+  font-size: 18px;
+}
+
+.adress-item {
+  margin: 10px;
+}
+
+.input {
+  width: 200px;
+}
+
+.contact-main {
+  background: rgb(128, 236, 246);
+  color: #000;
+  padding: 50px;
+  border-radius: 10px;
+}

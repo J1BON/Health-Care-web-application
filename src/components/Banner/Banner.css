@@ -1,0 +1,17 @@
+.main {
+  background: #2b3a5e;
+  color: #fff;
+  padding: 80px;
+  font-weight: bold;
+}
+
+.items {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+hr {
+  background: #fff;
+  width: 100px;
+}

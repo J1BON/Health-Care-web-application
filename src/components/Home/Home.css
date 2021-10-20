@@ -1,0 +1,81 @@
+.slider1,
+.slider2,
+.slider3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.slider1 {
+  background: url(../../bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider2 {
+  background: url(../../bg2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider3 {
+  background: url(../../bg3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider-item {
+  color: #32d0df;
+  padding: 50px;
+  text-shadow: 0.5px 0.3px #fff;
+}
+.slider-item h1 {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: black;
+}
+
+.slider-item p {
+  font-size: 20px;
+}
+
+.about-btn {
+  background: #32d0df;
+  color: #fff;
+  padding: 13px 40px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.about-btn:hover {
+  background: #fff;
+  color: #000;
+  padding: 13px 40px;
+  border: 2px solid #32d0df;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.call-btn {
+  background: #ffff;
+  color: black;
+  padding: 13px 40px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+
+.call-btn:hover {
+  background: rgb(224, 223, 223);
+  color: black;
+  padding: 13px 40px;
+  border: 2px solid #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 0px 15px;
+}

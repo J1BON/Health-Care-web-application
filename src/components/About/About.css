@@ -1,0 +1,16 @@
+.item-all {
+  padding: 20px;
+  text-align: start;
+}
+
+.icon {
+  margin-right: 20px;
+}
+.icon i {
+  font-size: 30px;
+}
+
+.main-point {
+  background: #212529;
+  color: #fff;
+}

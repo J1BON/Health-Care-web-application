@@ -1,0 +1,10 @@
+.card {
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%), 0 10px 30px rgb(0 0 0 / 5%);
+}
+
+.more a {
+  background: #53e0ed;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0;
+}
