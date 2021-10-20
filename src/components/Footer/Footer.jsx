@@ -60,24 +60,24 @@ const Footer = () => {
             <div class="col-md-4 col-sm-6 col-xs-12">
               <ul class="social-icons">
                 <li>
-                  <Link class="facebook">
+                  <a class="facebook">
                     <i class="fa fa-facebook"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className="twitter">
+                  <a className="twitter">
                     <i class="fa fa-twitter"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link class="dribbble">
+                  <a class="dribbble">
                     <i class="fa fa-dribbble"></i>
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link class="linkedin">
+                  <a className="linkedin">
                     <i class="fa fa-linkedin"></i>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>

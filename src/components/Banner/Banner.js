@@ -4,7 +4,7 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div className="main">
-      <div className="container mx-auto row">
+      <div className="mx-auto row">
         <div className="title col-sm-12 col-md-6 col-lg-4 items">
           <div>
             <h1>Why Choose Us?</h1>
@@ -13,9 +13,8 @@ const Banner = () => {
         </div>
         <div className="para col-sm-12 col-md-6 col-lg-4 items">
           <p>
-            Nunc purus sodales quis, purus a arcu, ultricies dui, ipsum eget,
-            massa metus sed. Odio arcu dolor, facilisis adipiscing nam mauris
-            suspendisse.
+            We are the best medic in the down. Come to us without any fear.
+            Don't waste your valueable money on other fake hospital.
           </p>
         </div>
         <div className="adress col-sm-12 col-md-6 col-lg-4 items">

@@ -1,9 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import useAuth from '../../allHooks/useAuth';
+import React from "react";
+import { Link } from "react-router-dom";
+import useAuth from "../../allHooks/useAuth";
 
 const Registration = () => {
-  const { SignInUsingGoogle, handleRegistration, handleEmail, handlePassword } = useAuth();
+  const { SignInUsingGoogle, handleRegistration, handleEmail, handlePassword } =
+    useAuth();
   return (
     <div>
       <div className="container overflow-hidden">
@@ -54,23 +55,29 @@ const Registration = () => {
                     required
                   />
                 </div>
-                <button className="w-50 mx-auto my-3 btn btn-info" type="submit">
+                <button
+                  className="w-50 mx-auto my-3 btn btn-info"
+                  type="submit"
+                >
                   Register
                 </button>
               </div>
             </form>
             <div className="text-center">
               <p>
-                <small>Already have an account?{" "}
-                  <Link to="/login">Log in</Link>
+                <small>
+                  Already have an account? <Link to="/login">Log in</Link>
                 </small>
               </p>
-              <button className="btn btn-dark" onClick={SignInUsingGoogle}><img
+              <button className="btn btn-dark mb-4" onClick={SignInUsingGoogle}>
+                <img
                   src="https://image.flaticon.com/icons/png/512/281/281764.png"
                   width="30px"
                   className="m-1 float-start"
                   alt=""
-                />Sign up with google</button>
+                />
+                Sign up with google
+              </button>
             </div>
           </div>
         </div>

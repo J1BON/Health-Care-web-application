@@ -3,21 +3,28 @@ import { Link, useLocation, useHistory } from "react-router-dom";
 import useAuth from "../../allHooks/useAuth";
 
 const Login = () => {
-  const { SignInUsingGoogle, handleSignIn, setUser, setError, handleEmail, handlePassword } = useAuth();
+  const {
+    SignInUsingGoogle,
+    handleSignIn,
+    setUser,
+    setError,
+    handleEmail,
+    handlePassword,
+  } = useAuth();
   const location = useLocation();
   const history = useHistory();
-  const redirect_uri = location.state?.from || '/home';
+  const redirect_uri = location.state?.from || "/home";
 
   const handleGoogleLogin = () => {
     SignInUsingGoogle()
-    .then((result) => {
-      history.push(redirect_uri);
-      console.log(result.user)
-      setUser(result.user);
-    })
-    .catch((error) => {
-      setError(error.message)
-    });
+      .then((result) => {
+        history.push(redirect_uri);
+        console.log(result.user);
+        setUser(result.user);
+      })
+      .catch((error) => {
+        setError(error.message);
+      });
   };
 
   return (
@@ -44,7 +51,7 @@ const Login = () => {
                 </label>
                 <div className="col-sm-9">
                   <input
-                  onBlur={handleEmail}
+                    onBlur={handleEmail}
                     type="email"
                     className="form-control"
                     id="staticEmail"
@@ -62,7 +69,7 @@ const Login = () => {
                 </label>
                 <div className="col-sm-9">
                   <input
-                  onBlur={handlePassword}
+                    onBlur={handlePassword}
                     type="password"
                     className="form-control"
                     placeholder="Enter your password"
@@ -79,14 +86,14 @@ const Login = () => {
             <div className="text-center">
               <p>
                 <small>
-                  Don't have account?{" "}
+                  Don't have account?
                   <Link to="/register">create an account</Link>
                 </small>
               </p>
-              <button className="btn btn-dark" onClick={handleGoogleLogin}>
+              <button className="btn btn-dark mb-4" onClick={handleGoogleLogin}>
                 <img
                   src="https://image.flaticon.com/icons/png/512/281/281764.png"
-                  width="30px"
+                  width="25px"
                   className="m-1 float-start"
                   alt=""
                 />
