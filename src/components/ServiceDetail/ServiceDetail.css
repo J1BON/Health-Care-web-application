@@ -1,4 +1,7 @@
-/* .card img {
-  width: 450px;
-  height: 300px;
-} */
+.card {
+  background: rgb(35, 244, 251);
+}
+
+.card-body {
+  background: #fff;
+}

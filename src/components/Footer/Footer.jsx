@@ -34,17 +34,16 @@ const Footer = () => {
               <h6>Quick Links</h6>
               <ul class="footer-links">
                 <li>
+                  <Link to="/home">Home</Link>
+                </li>
+                <li>
                   <Link to="/about">About Us</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>
                 </li>
-                <li>
-                  <Link>Contibute</Link>
-                </li>
-                <li>
-                  <Link>Privacy Policy</Link>
-                </li>
+                <li>Contibute</li>
+                <li>Privacy Policy</li>
               </ul>
             </div>
           </div>
@@ -54,30 +53,29 @@ const Footer = () => {
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
               <p class="copyright-text">
-                Copyright &copy; 2017 All Rights Reserved by
-                <Link href="#">Jiban Ahammed</Link>.
+                Copyright &copy; 2017 All Rights Reserved by Jiban Ahammed
               </p>
             </div>
 
             <div class="col-md-4 col-sm-6 col-xs-12">
               <ul class="social-icons">
                 <li>
-                  <Link class="facebook" href="#">
+                  <Link class="facebook">
                     <i class="fa fa-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link className="twitter" href="#">
+                  <Link className="twitter">
                     <i class="fa fa-twitter"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link class="dribbble" href="#">
+                  <Link class="dribbble">
                     <i class="fa fa-dribbble"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link class="linkedin" href="#">
+                  <Link class="linkedin">
                     <i class="fa fa-linkedin"></i>
                   </Link>
                 </li>
